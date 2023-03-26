@@ -133,15 +133,19 @@ h4 {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
+  .container {
+    height: 95vh;
+  }
+
   .card {
     width: 340px;
-    height: 85%;
+    height: 90%;
   }
 
   .top-section {
     padding: 0 1.5rem 0 1.5rem;
-    height: 35%;
+    height: 37%;
   }
 
   .top-h4 {
@@ -149,7 +153,7 @@ h4 {
   }
 
   .bottom-section {
-    height: 65%;
+    height: 63%;
     flex-direction: column;
   }
 
@@ -169,31 +173,5 @@ h4 {
 
   .bottom-right-section {
     padding: 0.7rem 1.5rem 0 1.5rem;
-  }
-}
-
-@media screen and (min-width: 401px) {
-  .top-section {
-    padding: 0 1.2rem 0 1rem;
-  }
-
-  .bottom-left-section {
-    padding: 1rem 1.2rem 0 1rem;
-  }
-
-  h4 {
-    margin-top: 10px;
-  }
-
-  .subscription {
-    margin-bottom: 20px;
-  }
-
-  .bottom-right-section {
-    padding: 1rem;
-  }
-
-  .reasons li {
-    line-height: 20px;
   }
 }
