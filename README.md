@@ -31,7 +31,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/PeterKingori/Frontend-Mentor-Single-price-grid-component)
 - Live Site URL: [Single Price Grid Component](https://peterkingori.github.io/Frontend-Mentor-Single-price-grid-component/)
 
 ## My process
@@ -58,4 +57,3 @@ I learned how to position items using CSS Flexbox and to center the whole compon
 ## Author
 
 - Frontend Mentor - [@PeterKingori](https://www.frontendmentor.io/profile/PeterKingori)
-- Github - [PeterKingori](https://github.com/PeterKingori)
